@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-/*统计字符数*/
+/*统计字符数函数*/
 int countCharacter(char* filename){
     FILE* fp;//文件指针，指向文件的起始地址
     int charCount=0;//记录字符个数
@@ -19,7 +19,7 @@ int countCharacter(char* filename){
     return charCount;//返回字符数
 }
 
-/*统计单词数*/
+/*统计单词数函数*/
 int countWord(char* filename){
     FILE* fp;//文件指针，指向文件的起始地址
     int wordCount=0;//记录单词个数
